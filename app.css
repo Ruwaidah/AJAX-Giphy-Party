@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.915);
+  min-height: 100vh;
+  color: wheat;
+}
+
+.form-removeBtn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  padding-left: 4px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+}
+
+input[type="submit"],
+button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: rgb(254, 49, 49);
+  color: white;
+}
+
+#error-div {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}

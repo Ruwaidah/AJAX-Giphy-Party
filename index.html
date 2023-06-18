@@ -2,20 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
     <title>Giphy Party!</title>
   </head>
 
   <body>
-    <div class="form-removeBtn-div">
-      <form id="searchForm">
-        <input type="text" placeholder="Enter a search term" id="searchInput" />
-        <input type="submit" value="Search Giphy" />
-      </form>
-      <button id="remove-gifs">Remove Gifs</button>
+    <div class="container">
+      <h1>GIPHY PARTY</h1>
+      <div class="form-removeBtn-div">
+        <form id="searchForm">
+          <input
+            type="text"
+            placeholder="Enter a search term"
+            id="searchInput"
+          />
+          <input type="submit" value="Search Giphy" />
+        </form>
+        <button id="remove-gifs">Remove Gifs</button>
+      </div>
+      <div id="error-div"><p></p></div>
+      <div id="img-container"></div>
     </div>
-    <div id="error-div"><p></p></div>
-    <div id="img-container"></div>
-
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.js"></script>
     <script src="app.js"></script>

@@ -21,6 +21,7 @@ async function getGiphy(string) {
   } catch {
     notFound.innerText = "Couldn't find any match";
   }
+  input.value=""
 }
 
 removeGifs.addEventListener("click", function () {
